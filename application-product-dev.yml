@@ -1,0 +1,10 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: maomaogo-product #用于集群【先通过服务名称找到服务。再通过负载均衡算法来确定调用里面的哪一个具体的服务器】
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///maomaogo-product?useSSL=false&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
