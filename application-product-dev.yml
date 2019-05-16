@@ -8,4 +8,5 @@ spring:
     url: jdbc:mysql:///maomaogo-product?useSSL=false&useUnicode=true&characterEncoding=utf8
     username: root
     password: root
-
+mybatis-plus:
+  type-aliases-package: cn.itsource.aigou.domain,cn.itsource.aigou.query
