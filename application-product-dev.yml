@@ -8,3 +8,4 @@ spring:
     url: jdbc:mysql:///maomaogo-product?useSSL=false&useUnicode=true&characterEncoding=utf8
     username: root
     password: root
+
